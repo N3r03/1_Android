@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageview_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/girl"
+        tools:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="95dp"
+        tools:layout_marginTop="60dp" />
+
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview_profile"
+        android:layout_centerHorizontal="true"
+        android:text="Nermina Jakupovska"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:text="Software Engineering Student"
+
+
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <ImageView
+        android:id="@+id/imageview_pic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/lin"
+        tools:layout_editor_absoluteX="-100dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/imageview_pic"
+        android:layout_marginTop="10dp"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearlayout_1"
+        android:layout_marginTop="10dp"
+        >
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearlayout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearlayout_1"
+        android:layout_marginTop="10dp"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearlayout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearlayout_1"
+        android:layout_marginTop="10dp"
+        >
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/imageview_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_acc"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <ImageView
+        android:id="@id/imageview_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_person"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <ImageView
+        android:id="@id/imageview_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_settings_applications_black_24dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <ImageView
+        android:id="@id/imageview_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_location_on_black_24dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <ImageView
+        android:id="@id/imageview_profile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_power"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#000"
+        android:textSize="18sp"
+
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="754dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
